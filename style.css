@@ -103,4 +103,78 @@ body{
     color: brown;
 }
 
+.about{
+    background-color: rgb(1, 1, 20);
+    color: wheat;
+    margin-bottom: 150px;
+    height: 750px;
+}
+.about-title {
+    font-size: 50px;
+    color: aliceblue;
+    text-align: center;
+}
+.total-width {
+    display: flex;
+    width: 100%;
+}
+.line{
+   width: 77%;
+   height: 2px;
+   background-color: rgb(192, 59, 59);
+   border: none;
+}
+.line2{
+    width: 90%;
+    height: 2px;
+    background-color: rgb(30, 185, 43);
+    border: none; 
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 40%;
+    padding-left: 50px;
+}
 
+.experience {
+    font-size: 50px;
+}
+
+.lorem {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ul li{
+    font-size: 30px;
+}
+.shape{
+    background-image: url(images/shape/Group_33094_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 150px;
+}
+
+.shape-in {
+    display: flex;
+    align-items: center;
+    padding: 70px 130px;
+}
+.shape-in h1{
+    color: aliceblue;
+}
+.shape-in button {
+    font-size: 20px;
+    border: none;
+    font-weight: 700;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    
+}
