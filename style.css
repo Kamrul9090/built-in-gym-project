@@ -176,5 +176,66 @@ ul li{
     padding: 10px 20px;
     border-radius: 5px;
     margin-left: 20px;
-    
+}
+.service-card{
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.one-card {
+    box-shadow: 1px 1px 17px 5px grey;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: auto;
+}
+.one-card img{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.one-card h2{
+    color: rgb(219, 52, 52);
+}
+.one-card h2, h1, h3{
+    margin: 18px;
+    font-weight: 700;
+}
+
+.card-price {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.card-price h4{
+    margin-right: 10px;
+    color: rgb(180, 37, 37);
+    font-weight: 700;
+}
+.footer-line{
+    margin-left: 80px;
+    margin-right: 80px;
+    border: none;
+    height: 2px;
+    background-color: orangered;
+}
+footer {
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+.youtube{
+    margin-left: 20px;
+}
+
+footer a:hover{
+    color: red;
+    text-decoration: underline;
+
 }
